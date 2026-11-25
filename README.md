@@ -4,7 +4,20 @@
 
 **Ein Formel-Rennmanager für den Browser.** Entwickle dein Auto, führe dein Team durch mehrere Saisons und sieh im 3D-Rennen, wie sich deine Entscheidungen auf die Rundenzeiten auswirken.
 
-**Projektstatus** · Konzeptphase. Ein spielbarer Build ist noch nicht verfügbar. Der erste Prototyp soll zeigen, wie zwei Unterbodenvarianten unter gleichen Rennbedingungen abschneiden.
+**Projektstatus** · Ein klickbarer UI-PoC mit fünf Ansichten ist verfügbar. Am Rennstand werden feste Beispieldaten angezeigt.
+
+## Demo lokal starten
+
+Voraussetzung ist Node.js ab Version 22.12 innerhalb der 22er-Reihe oder eine neuere von Vite unterstützte Version.
+
+```sh
+npm ci
+npm run dev
+```
+
+Öffne die URL, die Vite im Terminal anzeigt. Starte die Demo, übernimm ein Team und wähle in der Fahrzeugentwicklung einen Unterboden. Am Rennstand siehst du dein Team, beide Fahrer und das gewählte Setup. Die Auswahl bleibt beim Seitenwechsel in der laufenden Demo erhalten.
+
+Mit `npm run build` prüfst du die TypeScript-Typen und erstellst den Produktionsbuild in `dist/`.
 
 ## Eine Saison als Teamchef
 
